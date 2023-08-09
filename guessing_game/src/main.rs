@@ -13,8 +13,6 @@ fn main() {
 
     println!("The secret number is: {secret_number}");
 
-    print_type_of(1..4);
-
     loop {
         println!("Please input your guess.");
 
