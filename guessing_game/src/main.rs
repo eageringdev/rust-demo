@@ -2,9 +2,9 @@ use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
 
-fn print_type_of<T>(_: T) {
-    println!("{}", std::any::type_name::<T>());
-}
+// fn print_type_of<T>(_: T) {
+//     println!("{}", std::any::type_name::<T>());
+// }
 
 fn main() {
     println!("Guess the number!");
