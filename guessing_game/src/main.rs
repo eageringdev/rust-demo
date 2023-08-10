@@ -2,9 +2,9 @@ use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
 
-fn print_type_of<T>(_: T) {
-    println!("{}", std::any::type_name::<T>());
-}
+// fn print_type_of<T>(_: T) {
+//     println!("{}", std::any::type_name::<T>());
+// }
 
 fn main() {
     println!("Guess the number!");
@@ -12,8 +12,6 @@ fn main() {
     let secret_number: u32 = rand::thread_rng().gen_range(1..100);
 
     println!("The secret number is: {secret_number}");
-
-    print_type_of(1..4);
 
     loop {
         println!("Please input your guess.");
